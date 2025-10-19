@@ -1,0 +1,25 @@
+.projects .cards-block__card_small_text__title {
+    text-align: right;
+}
+
+.projects .cards-block__card_small_text__title::after {
+    background-color: var(--orange);
+    margin-left: auto;
+    margin-bottom: 59px;
+}
+
+.projects .cards-block__card_small_text {
+    border: 20px solid var(--red);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.cards-block__card_small_text__button {
+    text-decoration: none;
+    display: block;
+    font: var(--font-button);
+    color: var(--dark-grey);
+    background-color: var(--red);
+    padding: 17px 49px;
+}

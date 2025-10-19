@@ -1,0 +1,14 @@
+.achievements {
+    width: 100%;
+    height: auto;
+    padding: 95px;
+    margin: 100px 0 0;
+    background-color: var(--red);
+    box-sizing: border-box;
+}
+
+.achievements .cards-block__card_small {
+    height: auto;
+    display: flex;
+    gap: 27px;
+}

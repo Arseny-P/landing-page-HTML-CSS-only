@@ -1,0 +1,16 @@
+:root {
+    --dark-grey: #252525;
+    --partners-logo-grey: #37392e;
+    --red: #ef3527;
+    --orange: #ffa630;
+    --light-grey: #9B9C96;
+
+    --font-family: "Poppins", sans-serif;
+
+    --font-h1: 600 95px var(--font-family);
+    --font-h2: 500 60px var(--font-family);
+    --font-h3: 700 30px var(--font-family);
+    --font-sub-heading: 400 30px var(--font-family);
+    --font-paragraph: 400 18px var(--font-family);
+    --font-button: 700 16px var(--font-family);
+}

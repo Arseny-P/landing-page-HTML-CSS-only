@@ -1,0 +1,44 @@
+@import url('variables.css');
+@import url('header.css');
+@import url('first-screen.css');
+@import url('about.css');
+@import url('cards-block.css');
+@import url('achievements.css');
+@import url('projects.css');
+@import url('contacts.css');
+@import url('footer.css');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--dark-grey);
+  overflow-x: hidden;
+}
+
+.partners__logo {
+  fill: var(--partners-logo-grey);
+  fill-opacity: 0.5;
+  width: 60px;
+  height: 60px;
+}
+
+.about {
+  height: 740px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@keyframes up-down {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(-30px);
+  }
+
+}

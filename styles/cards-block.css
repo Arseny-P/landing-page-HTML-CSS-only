@@ -1,0 +1,114 @@
+.cards-block {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 140px;
+    display: grid;
+    grid-template-columns: 420px 420px 420px;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.cards-block__card_small {
+    height: 420px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.cards-block__card_big {
+    height: 420px;
+    grid-column: span 2;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.cards-block__card_small svg {
+    flex-shrink: 0;
+}
+
+.cards-block__card_small_text {
+    border: 20px solid var(--orange);
+    padding: 70px;
+}
+
+.cards-block__card_small_text__title {
+    font: var(--font-h2);
+    line-height: 66px;
+    color: white;
+    margin: 0;
+}
+
+.cards-block__card_small_text__title::after {
+    content: "";
+    height: 3px;
+    width: 190px;
+    background-color: var(--red);
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 28px;
+}
+
+.cards-block__card_small_text__paragraph {
+    font: var(--font-paragraph);
+    color: white;
+}
+
+.cards-block__card_small_img__image {
+    position: relative;
+    object-fit: cover;
+    z-index: -10;
+}
+
+.cards-block__card__img__title {
+    font: var(--font-h3);
+    color: white;
+    line-height: 33px;
+    margin: 0;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+}
+
+.cards-block__card__img__title_small-back::before {
+    content: "";
+    width: 270px;
+    height: 100px;
+    background-color: var(--dark-grey);
+
+    position: absolute;
+    bottom: -25px;
+
+    z-index: -1;
+    padding-top: 26px;
+    padding-right: 40px;
+}
+
+.cards-block__card__img__title_big-back::before {
+    content: "";
+    width: 340px;
+    height: 100px;
+    background-color: var(--dark-grey);
+
+    position: absolute;
+    bottom: -25px;
+
+    z-index: -1;
+    padding-top: 26px;
+    padding-right: 40px;
+}
+
+.cards-block__card_small__text-content__title {
+    font: var(--font-h2);
+    color: var(--orange);
+
+    margin: 0;
+}
+
+.cards-block__card_small__text-content__paragraph {
+    font: var(--font-paragraph);
+    color: white;
+
+    margin: 0;
+}

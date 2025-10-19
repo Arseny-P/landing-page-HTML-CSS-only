@@ -1,0 +1,39 @@
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+
+    margin-top: 100px;
+    padding-left: 159px;
+    padding-right: 71px;
+}
+
+.contacts__info__logo {
+    margin-bottom: 45px;
+}
+
+.contacts__info__title {
+    font-family: var(--font-family);
+    font-size: 10px;
+    font-weight: bold;
+    color: var(--orange);
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+
+.contacts__info__text {
+    font: var(--font-paragraph);
+    color: white;
+    margin: 0;
+}
+
+.contacts__info__society {
+    display: flex;
+    gap: 54px;
+    margin-top: 92px;
+}
+
+.contacts__map {
+    object-fit: fill;
+}

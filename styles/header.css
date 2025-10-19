@@ -1,0 +1,35 @@
+.head__logo {
+    width: 198px;
+    height: 53px;
+}
+
+.head__logo_white {
+    fill: white;
+}
+
+.head {
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1000;
+    top: 36px;
+    left: 0;
+    width: 100%;
+    padding: 0 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head__navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.head__navigation__link {
+    font: var(--font-paragraph);
+    text-transform: uppercase;
+    color: white;
+    text-decoration-line: none;
+}

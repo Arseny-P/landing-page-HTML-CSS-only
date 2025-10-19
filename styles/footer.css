@@ -1,0 +1,14 @@
+.footer {
+    height: 100px;
+    position: relative;
+    padding-left: 170px;
+}
+
+.footer-text {
+    font: var(--font-paragraph);
+    color: var(--light-grey);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
